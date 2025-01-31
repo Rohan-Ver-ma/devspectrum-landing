@@ -21,7 +21,6 @@ export default function Logos() {
           </h2>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-8">
-          <Logo image={Figma} name="Figma" />
           <Logo image={React} name="React" version="19.0.0" />
           <Logo image={TypeScript} name="TypeScript" version="5.6.3" />
           <Logo image={ShadcnUi} name="Shadcn/ui" version="2.1.8" />

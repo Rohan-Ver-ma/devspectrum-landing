@@ -17,13 +17,13 @@ export default function Hero() {
 
   switch (resolvedTheme) {
     case "light":
-      src = "/app-light.png";
+      src = "/devspectrum-light.png";
       break;
     case "dark":
-      src = "/app-dark.png";
+      src = "/devspectrum-dark.png";
       break;
     default:
-      src = "/app-dark.png";
+      src = "/devspectrum-dark.png";
       break;
   }
 
@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="flex flex-col items-center gap-6 text-center sm:gap-12">
           <Badge variant="outline" className="animate-appear">
             <span className="text-muted-foreground">
-              New version of Launch UI is out!
+              DevSpectrum is out!
             </span>
             <a
               href={siteConfig.getStartedUrl}
@@ -43,12 +43,11 @@ export default function Hero() {
               <ArrowRightIcon className="h-3 w-3" />
             </a>
           </Badge>
-          <h1 className="relative z-10 inline-block animate-appear bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-4xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-6xl sm:leading-tight md:text-8xl md:leading-tight">
-            Give your big idea the website it deserves
+          <h1 className="relative z-10 inline-block animate-appear bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-4xl font-semibold leading-tight text-transparent drop-shadow-2xl sm:text-6xl sm:leading-tight md:text-7xl md:leading-tight">
+            One Stop for your Crypto Updates & Tech Trends
           </h1>
           <p className="text-md relative z-10 max-w-[550px] animate-appear font-medium text-muted-foreground opacity-0 delay-100 sm:text-xl">
-            Landing page components built with React, Shadcn/ui and Tailwind
-            that will make your website feel premium.
+          Stay updated with the latest trends in development and cryptocurrency every day.
           </p>
           <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">
             <div className="relative z-10 flex animate-appear justify-center gap-4 opacity-0 delay-300">

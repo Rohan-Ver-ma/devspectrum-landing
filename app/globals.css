@@ -31,8 +31,8 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
 
-    --brand: 27 96% 61%;
-    --brand-foreground: 31 97% 72%;
+    --brand: 243.4 75.4% 58.6%;
+    --brand-foreground: 255.1 91.7% 76.3%;  
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -61,8 +61,8 @@
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
 
-    --brand: 31 97% 72%;
-    --brand-foreground: 27 96% 61%;
+    --brand: 243.4 75.4% 58.6%;
+    --brand-foreground: 255.1 91.7% 76.3%;
   }
 }
 

@@ -1,17 +1,17 @@
 export const siteConfig = {
-  name: "Launch UI",
-  url: "https://launchuicomponents.com",
+  name: "DevSpectrum",
+  url: "https://app.devspectrum.rohanverma.me",
   getStartedUrl:
-    "https://launchuicomponents.com/docs/getting-started/introduction",
+    "https://app.devspectrum.rohanverma.me",
   ogImage: "https://launchuicomponents.com/og.jpg",
   description:
-    "Landing page components built with React, Shadcn/ui and Tailwind that will make your website feel premium.",
+    "One Stop for your Crypto Updates & Tech Trends",
   links: {
-    twitter: "https://twitter.com/mikolajdobrucki",
-    github: "https://github.com/launch-ui/launch-ui",
+    twitter: "https://x.com/rohans_twt",
+    github: "https://github.com/Rohan-Ver-ma/DevSpectrum",
   },
   stats: {
-    updated: "2024-12-29",
+    updated: "2025-01-20",
   },
 };
 

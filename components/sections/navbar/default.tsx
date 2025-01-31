@@ -9,6 +9,9 @@ import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
 import { Menu } from "lucide-react";
 import LaunchUI from "../../logos/launch-ui";
 import { siteConfig } from "@/config/site";
+import { ModeToggle } from "@/components/ui/mode-toggle";
+import Github from "@/components/logos/github";
+import Twitter from "@/components/logos/twitter";
 
 export default function Navbar() {
   return (
@@ -18,21 +21,25 @@ export default function Navbar() {
         <NavbarComponent>
           <NavbarLeft>
             <a
-              href={siteConfig.url}
               className="flex items-center gap-2 text-xl font-bold"
             >
               <LaunchUI />
-              Launch UI
-            </a>
+              DevSpectrum             
+              </a>
             <Navigation />
           </NavbarLeft>
           <NavbarRight>
-            <a href={siteConfig.url} className="hidden text-sm md:block">
-              Sign in
-            </a>
+          <a href={siteConfig.links.github} target="_blank" rel="noopener noreferrer">
+        <Github className="mr-2 h-6 w-6 cursor-pointer" />
+          </a>
+          <a href={siteConfig.links.twitter} target="_blank" rel="noopener noreferrer">
+          <Twitter className="mr-2 h-6 w-6 cursor-pointer" />          
+          </a>
+          <ModeToggle  />
             <Button variant="default" asChild>
               <a href={siteConfig.url}>Get Started</a>
             </Button>
+            
             <Sheet>
               <SheetTrigger asChild>
                 <Button
