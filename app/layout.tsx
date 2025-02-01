@@ -65,10 +65,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} bg-background antialiased`}>
         <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
+       
         >
           {children}
         </ThemeProvider>
