@@ -12,8 +12,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.getStartedUrl),
   description: siteConfig.description,
   keywords: [
-    "Landing page template",
-    "Components",
+    "News App",
+    "Crypto and Web3",
+    "Artificial Inteligence",
     "Shadcn",
     "Next.js",
     "React",
@@ -22,11 +23,11 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Mikolaj Dobrucki",
-      url: "https://mikolajdobrucki.com",
+      name: "",
+      url: "https://rohanverma.me",
     },
   ],
-  creator: "mikolajdobrucki",
+  creator: "",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -48,11 +49,10 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [siteConfig.ogImage],
-    creator: "@mikolajdobrucki",
+    creator: "",
   },
   icons: {
     icon: "/favicon.svg",
-    apple: "/apple-touch-icon.png",
   },
 };
 

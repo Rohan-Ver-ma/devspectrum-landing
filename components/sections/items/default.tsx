@@ -24,10 +24,10 @@ export default function Items() {
               <ItemIcon>
                 <ScanFaceIcon className="h-5 w-5 stroke-1" />
               </ItemIcon>
-              Accessibility first
+              Built for developers 
             </ItemTitle>
             <ItemDescription>
-              Fully WCAG 2.0 compliant, made with best a11y practices
+            Stay ahead with real-time updates on blockchain and developer news.
             </ItemDescription>
           </Item>
           <Item>
@@ -49,7 +49,7 @@ export default function Items() {
               Light and dark mode
             </ItemTitle>
             <ItemDescription>
-              Seamless switching between color schemes, 6 themes included
+            Switch seamlessly between themes for an optimal reading experience.
             </ItemDescription>
           </Item>
           <Item>
@@ -57,10 +57,10 @@ export default function Items() {
               <ItemIcon>
                 <BlocksIcon className="h-5 w-5 stroke-1" />
               </ItemIcon>
-              Easy to customize
+              Market & tech trend analysis
             </ItemTitle>
             <ItemDescription>
-              Flexible options to match your product or brand
+            Detailed insights on crypto prices, developer tools, and tech trends.
             </ItemDescription>
           </Item>
           <Item>
@@ -68,10 +68,10 @@ export default function Items() {
               <ItemIcon>
                 <FastForwardIcon className="h-5 w-5 stroke-1" />
               </ItemIcon>
-              Top-level performance
+              Real time breaking news
             </ItemTitle>
             <ItemDescription>
-              Made for lightning-fast load times and smooth interactions
+            Stay updated with instant alerts on major developer and crypto stories.
             </ItemDescription>
           </Item>
           <Item>
@@ -79,10 +79,10 @@ export default function Items() {
               <ItemIcon>
                 <RocketIcon className="h-5 w-5 stroke-1" />
               </ItemIcon>
-              Production ready
+              Blazing fast performance
             </ItemTitle>
             <ItemDescription>
-              Thoroughly tested and launch-prepared
+            Optimized for quick load times and effortless navigation.
             </ItemDescription>
           </Item>
           <Item>
@@ -90,21 +90,21 @@ export default function Items() {
               <ItemIcon>
                 <LanguagesIcon className="h-5 w-5 stroke-1" />
               </ItemIcon>
-              Made for localisation
+              Global news coverage
             </ItemTitle>
             <ItemDescription>
-              Easy to implement support for multiple languages and regions
-            </ItemDescription>
+            Bringing you the latest insights from top sources worldwide.
+          </ItemDescription>
           </Item>
           <Item>
             <ItemTitle className="flex items-center gap-2">
               <ItemIcon>
                 <SquarePenIcon className="h-5 w-5 stroke-1" />
               </ItemIcon>
-              CMS friendly
+              Category based news
             </ItemTitle>
             <ItemDescription>
-              Built to work with your any headless content management system
+            Browse news by category Programming,Crypto,AI and more.
             </ItemDescription>
           </Item>
         </div>

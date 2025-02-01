@@ -3,7 +3,7 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { Moon, MoonIcon, Sun ,  } from "lucide-react"
+import { Moon, Sun ,  } from "lucide-react"
 
 import { Button } from "./button";
 import {
@@ -12,11 +12,10 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "./dropdown-menu";
-import { ChevronsUpDownIcon } from "lucide-react";
 
 export function ModeToggle() {
   const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
+  const {  setTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);

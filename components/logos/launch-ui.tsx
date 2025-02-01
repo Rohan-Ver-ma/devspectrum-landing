@@ -1,4 +1,4 @@
-const LaunchUI = (props: React.SVGProps<SVGSVGElement>) => (
+const DevSpectrum = () => (
   <svg
   xmlns="http://www.w3.org/2000/svg"
   fill="none"
@@ -26,4 +26,4 @@ const LaunchUI = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-export default LaunchUI;
+export default DevSpectrum;

@@ -29,7 +29,7 @@ const NavbarRight = React.forwardRef<
   React.HTMLAttributes<HTMLDivElement>
 >(({ className, ...props }, ref) => (
   <nav
-    className={cn("flex items-center gap-4 justify-end", className)}
+    className={cn("flex items-center gap-3 justify-end", className)}
     {...props}
     ref={ref}
   />
