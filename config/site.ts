@@ -9,6 +9,7 @@ export const siteConfig = {
   links: {
     twitter: "https://x.com/rohans_twt",
     github: "https://github.com/Rohan-Ver-ma/DevSpectrum",
+    email: "rohanverma96438@gmail.com",
   },
   stats: {
     updated: "2025-01-20",
