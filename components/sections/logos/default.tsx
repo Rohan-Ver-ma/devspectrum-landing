@@ -1,4 +1,3 @@
-import Figma from "../../logos/figma";
 import React from "../../logos/react";
 import ShadcnUi from "../../logos/shadcn-ui";
 import Tailwind from "../../logos/tailwind";

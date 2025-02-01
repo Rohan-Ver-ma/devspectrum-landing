@@ -9,7 +9,7 @@ import DevSpectrum from "../../logos/launch-ui";
 import { siteConfig } from "@/config/site";
 import { ModeToggle } from "@/components/ui/mode-toggle";
 import Github from "@/components/logos/github";
-import Twitter from "@/components/logos/twitter";
+// import Twitter from "@/components/logos/twitter";
 
 export default function Navbar() {
   return (
