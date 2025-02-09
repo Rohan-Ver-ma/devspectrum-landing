@@ -3,7 +3,7 @@ export const siteConfig = {
   url: "https://app.devspectrum.rohanverma.me",
   getStartedUrl:
     "https://app.devspectrum.rohanverma.me",
-  ogImage: "https://launchuicomponents.com/og.jpg",
+  ogImage: "public/home.png",
   description:
     "One Stop for your Crypto Updates & Tech Trends",
   links: {
