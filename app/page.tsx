@@ -3,7 +3,7 @@ import Hero from "../components/sections/hero/default";
 import Logos from "../components/sections/logos/default";
 import Items from "../components/sections/items/default";
 import CTA from "../components/sections/cta/default";
-// import Footer from "../components/sections/footer/default";
+import Footer from "../components/sections/footer/default";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <Logos />
       <Items />
       <CTA />
+      <Footer />
     </main>
   );
 }
