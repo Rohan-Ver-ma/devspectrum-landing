@@ -3,6 +3,8 @@ import "@/app/globals.css";
 import { inter } from "@/lib/fonts";
 import { ThemeProvider } from "@/components/contexts/theme-provider";
 import { siteConfig } from "../config/site";
+import { Analytics } from '@vercel/analytics/next';
+
 
 export const metadata: Metadata = {
   title: {
@@ -12,7 +14,10 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.getStartedUrl),
   description: siteConfig.description,
   keywords: [
-    "News App",
+    "News App for Developers",
+    "News App for Programmers",
+    "News App for Coders",
+    "News App for Software Engineers",
     "Crypto and Web3",
     "Artificial Inteligence",
     "Shadcn",
@@ -69,6 +74,7 @@ export default function RootLayout({
         >
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
