@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "DevSpectrum",
-  url: "https://app.devspectrum.rohanverma.me",
+  url: "https://devspectrum.rohanverma.me",
   getStartedUrl:
-    "https://app.devspectrum.rohanverma.me",
+    "https://devspectrum.rohanverma.me",
   ogImage: "/home.png",
   description:
     "One Stop for your Crypto Updates & Tech Trends",
@@ -12,7 +12,7 @@ export const siteConfig = {
     email: "rohanverma96438@gmail.com",
   },
   stats: {
-    updated: "2025-01-20",
+    updated: "2025-03-20",
   },
 };
 
