@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "DevSpectrum",
-  url: "https://devspectrum.rohanverma.me",
+  url: "https://app.devspectrum.rohanverma.me",
   getStartedUrl:
-    "https://devspectrum.rohanverma.me",
+    "https://app.devspectrum.rohanverma.me",
   ogImage: "/home.png",
   description:
     "One Stop for your Crypto Updates & Tech Trends",
